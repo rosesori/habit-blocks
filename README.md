@@ -10,5 +10,5 @@ Each graph is essentially a heatmap, where:
 
 - x-axis represents the weeks (labeled with the corresponding months)
 - y-axis displays the weekdays (labeled with Mon, Wed, and Fri)
-- Value indicates the count of habits completed
-- Legend shows color gradient
+- value indicates the count of habits completed
+- legend shows color gradient
