@@ -14,6 +14,7 @@
 		3A9D7DB42D2FB20600E92A78 /* habit_blocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D7DB32D2FB20600E92A78 /* habit_blocksTests.swift */; };
 		3A9D7DBE2D2FB20600E92A78 /* habit_blocksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D7DBD2D2FB20600E92A78 /* habit_blocksUITests.swift */; };
 		3A9D7DC02D2FB20600E92A78 /* habit_blocksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D7DBF2D2FB20600E92A78 /* habit_blocksUITestsLaunchTests.swift */; };
+		3AB650332D8F6C4C0030AE13 /* Contribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB650322D8F6C4C0030AE13 /* Contribution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3A9D7DBD2D2FB20600E92A78 /* habit_blocksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_blocksUITests.swift; sourceTree = "<group>"; };
 		3A9D7DBF2D2FB20600E92A78 /* habit_blocksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habit_blocksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A9D7DCC2D2FB24B00E92A78 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3AB650322D8F6C4C0030AE13 /* Contribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contribution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				3A9D7DA22D2FB20500E92A78 /* habit_blocksApp.swift */,
 				3A9D7DA42D2FB20500E92A78 /* ContentView.swift */,
+				3AB650322D8F6C4C0030AE13 /* Contribution.swift */,
 				3A9D7DA62D2FB20600E92A78 /* Assets.xcassets */,
 				3A9D7DA82D2FB20600E92A78 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			files = (
 				3A9D7DA52D2FB20500E92A78 /* ContentView.swift in Sources */,
 				3A9D7DA32D2FB20500E92A78 /* habit_blocksApp.swift in Sources */,
+				3AB650332D8F6C4C0030AE13 /* Contribution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
