@@ -6,17 +6,22 @@
 //
 
 import SwiftUI
+import Charts
 
 struct ContentView: View {
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Chart(contributions) { contribution in
+            RectangleMark(
+                xStart: .value("Start week", contribution.date, unit: .weekOfYear),
+                xEnd: .value("End week", contribution.date, unit: .weekOfYear),
+                yStart: .value("Start weekday", weekday(for: contribution.date)),
+                yEnd: .value("End weekday", weekday(for: contribution.date) + 1)
+            )
+            
         }
-        .padding()
     }
+
 }
 
 #Preview {
